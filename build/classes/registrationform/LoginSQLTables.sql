@@ -1,0 +1,16 @@
+CREATE TABLE LoginForm.users_table(
+	User_ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	User_Name VARCHAR(25),
+	Date DATE
+);
+
+
+CREATE TABLE LoginForm.login_info(
+	ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	User_Name VARCHAR(25) NOT NULL,
+	Mail VARCHAR(40),
+	Password VARCHAR(30),
+	Country VARCHAR(30),
+	City VARCHAR(30),
+	Date DATE
+);
